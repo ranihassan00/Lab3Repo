@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 public class AddressBook {
+
     private ArrayList<BuddyInfo> buddyList;
 
     public AddressBook(){
@@ -14,5 +15,9 @@ public class AddressBook {
 
     public static void main(String[] args){
         System.out.println("Address Book");
+        BuddyInfo bud = new BuddyInfo("Rami");
+        AddressBook addressBook = new AddressBook();
+        addressBook.addBuddy(bud);
+        addressBook.removeBuddy(bud);
     }
 }
