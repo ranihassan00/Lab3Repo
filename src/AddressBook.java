@@ -15,7 +15,9 @@ public class AddressBook {
         buddyList.remove(buddy);
     }
 
-
+    public void branchPrint(){
+        System.out.println("Branch Test: should print out in branch");
+    }
 
     public static void main(String[] args){
         System.out.println("Address Book");
@@ -25,5 +27,5 @@ public class AddressBook {
         addressBook.removeBuddy(bud);
         System.out.println(addressBook);
     }
-    //pull test 
+    //pull test
 }
