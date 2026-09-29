@@ -26,6 +26,7 @@ public class AddressBook {
         addressBook.addBuddy(bud);
         addressBook.removeBuddy(bud);
         System.out.println(addressBook);
+        //test
     }
     //pull test
 }
